@@ -1,0 +1,151 @@
+<html>
+<head>
+	<title> WEB Page Design - [Assignment #5]</title>
+	<style type="text/css">
+		h1,h2,h3,p,ol,ul{font-family:Verdana, Arial}
+		li.blue{color: blue;}
+		div{width:800px}
+	</style> 
+</head>
+
+<body bgcolor="silver" text="black">
+<div>
+<a name="Top"></a>
+<h1 align="center">Marianopolis College - Autumn 2017</h1>
+
+<h2 align="center">PRO-LBM Web Page Design - A2017</h2>
+
+<h3 align="center">Assignment 5</h3>
+
+<p align="center"><b>Due: November 14, 2017, <font color="red">11:00 am (Montreal time)</font></b>
+<br>
+Late submission leads to late penalty &#9785;
+</p>
+
+<p>
+As usual, once your work is finished, submit it by the due date and time in your folder on drive T:, by updating your "pub" with this assignment.
+</p>
+
+<br>
+
+<h3><b>Topic</b>: <i>Frames</i></h3>
+
+<h3>Preliminaries</h3>
+<p>Create the frame structure as illustrated <a href="blankframe.jpg" target="_blank">here</a>. You can use the examples shown in class for inspiration.
+In the top frame display a banner message of your choice, that will permanently remind the visitor what your web page is about.<br>
+Name the middle left frame "left", and the one to its right, "maincontent". <br>
+Name the bottom-most frame "buttons".
+</p>
+<hr>
+
+<h3>Exercise</h3>
+<p>
+<b>Reminder</b>: this is a modest "research"-assignment. The results of your research are supposed to enlarge your knowledge about the <b>Internet</b>.<br>
+You must provide content to the frames you created (in <b>Preliminaries</b>) as follows.
+</p>
+<p> 
+Contents of "buttons" frame: a permanently loaded webpage consisting of a single-row table with two colored, centered cells.<br>
+Each cell is a link to another webpage. The link labels: "About Computers" and "About the Internet".<br>
+Clicking on these links will open the corresponding page in the "left" frame.
+</p>
+<p>
+<b>Contents of the pages that will open in the "left" frame</b><br>
+
+<ul>
+<li> Linked from <b>"About Computers"</b>:  
+Each title listed here is, in turn, a link to a "mini-page" that must open in the "maincontent" frame of your frameset. That page will consist of a short dictionary-type definition of the corresponding computer term <b>and</b> a picture related to the topic.<br>
+
+Acknowledge the following URL as your source and use it for your dictionary data: 
+<a href="http://www.webopedia.com/Top_Category.asp" target="_blank">www.webopedia.com</a> 
+
+ Do not turn your table entries into direct links to the remote site, as that can end up causing more work for you than you think. There is a lot more material on the remote site than you need or want. Edit and reword if you think you can improve on the wording, before you include the quotation in your mini-page. Certainly remove any unnecessary material, e.g. links to ads. <br>
+Do not bother linking to related topics as done on the remote site. Your left frame will provide all the links you need in this assignment. (You may of course do this "for fun" if you wish, but be careful! Your links may open in unexpected windows! See below.)<br>
+
+
+ <b>Warning</b>: there may be spelling errors/typos on the remote site! Correct them in your local version.
+</p>
+<p>
+<ul>
+<li>A short title heading: <b>"Basics of Computer Architecture"</b></li>
+<li>The following topics, in table form. The table has one column and as many rows as needed.</li>
+
+<ul>
+<li class="blue">Hardware</li>
+<li class="blue">Software</li>
+<li class="blue">Binary numbers</li>
+<li class="blue">Main memory</li>
+<li class="blue">Mass storage</li>
+<li class="blue">Operating Systems</li>
+<li class="blue">Networks</li>
+</ul><br>
+
+</ul>
+
+<b>Tip</b>: you can easily edit the table you used in the "buttons" frame to serve your purpose in the "left" frame. 
+The button-like appearance of your links gives your page a consistent look.<br>
+
+
+</p>
+
+<p>
+<li>Linked from <b>"About the Internet"</b> Here use a combination of two sources: <a href="http://www.onguardonline.gov" target="_blank">www.On Guard Online</a> and 
+<a href="http://www.webopedia.com/Top_Category.asp" target="_blank">www.webopedia.com</a>. </li>
+</p>
+<p>
+<ul>
+<li>A short title heading: <b>"Internet: basic terminology list"</b></li>
+<li>The following topics, in table form. The table has one column and as many rows as needed.</li>
+<ul>
+
+<li class="blue">Internet backbone</li>
+<li class="blue">Routers</li>
+<li class="blue">Domain names (DNS)</li>
+<li class="blue">IP address</li>
+<li class="blue">TCP/IP</li>
+<li class="blue">Network topology</li>
+<li class="blue">Socialize online safely</li>
+<li class="blue">Spyware</li>
+
+</ul><br>
+</ul>
+</ul>
+</p>
+
+<p>
+When your main page (with frames) first loads, the "left" frame should show an intro page with text and/or a picture,  and the "main" frame should have <i>another</i> intro page with picture(s) and text. Clicking one of the two links in the bottom frame, will display the menu choices in the left frame and from there the viewer can start using your "info center".
+<br><br>
+
+Create <b>separate folders</b> for the two categories and for the images that you use.
+
+</p>
+
+<hr width="75%">
+
+
+
+<h3>External Style Sheets</h3>
+
+<p>Your assignment will include <u>2 external style sheets</u>, one for the pages of "Basics of Computer Architecture" and another one for the pages of "Internet: basic terminology list". Each external style sheet should have at least 2 features defined. This is intended to create a more user-friendly experience for your visitors. [<i>See example presented in class.</i>]
+</p>
+
+<hr width="75%"> <br>
+
+<p>Finally, <b>a word of caution</b>. Linking documents from a framed page can be confusing and misleading. For example, if your document links to a remote site on the web, the linked document, by <b>default</b>, will open <b>inside your frame!</b>. This is called "capturing" a site in a frame, and for this and other reasons, some experts still consider frames a controversial topic.<BR>
+This default may be exactly what you want, if you are linking to one of your locally prepared pages. But if you are linking to a remote page that is <b>not your work </b>, then place the <b>target="_blank"</b> attribute and value  with your <b>href</b>. This will display in a new page OR a new tab of the same window (depending on setup of the browser), as it should.
+</p>
+
+<br>
+
+<table width="150">
+
+<tr><td><a href="#Top">Top</a></td><td><a href="../index.html">Home</a></td></tr>
+</table>
+<br><br>
+<hr width="75%">
+<br>
+
+
+</p>
+</div>
+</body>
+</html>

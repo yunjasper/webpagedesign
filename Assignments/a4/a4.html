@@ -1,0 +1,194 @@
+<html>
+
+<head>
+	<title> WEB Page Design - [Assignment #4]</title>
+	<style type="text/css">
+		h1,h2,h3,p,ol,sup{font-family:Verdana, Arial, sans-serif}
+		sup{color:red}
+		div{width:800px}
+	</style> 
+</head>
+
+<body bgcolor="silver" text="black" >
+<div>
+<a name="Top"></a>
+<h1 align="center">Marianopolis College - Autumn2017</h1>
+<h2 align="center">PRO-LBM Web Page Design</h2>
+<h3 align="center">Assignment 4</h3>
+<hr>
+<p>
+<b>Due: </b><font color="red"><b>October 27, 2017</b>, 11:15 am</font>
+<hr>
+</p>
+<p>
+<a href="#Ex1">Exercise 1 </a>| <a href="#Ex2">Exercise 2 </a>| <a href="#Ex3">Exercise 3 </a>| <a href="#Files">Files</a>
+</p>
+
+<p>
+<b><u>Introduction</u></b>.  This assignment consists of three exercises. Of course, each exercise is to reside in a separate HTML document (i.e. page), with linked subdocuments if necessary.  At the top of each exercise-mainpage, place the following line:
+</p>
+<p align="center"><font color="blue">Previous | Next | [ 1 | 2 | 3 ]</font></p> 
+<p>
+and turn each word/number into a link to the appropriate exercise- mainpage. The "Previous" link of Exercise 1 links to Exercise 3 and the "Next" link of Exercise 3 links to Exercise 1; each number should be inactive on its own exercise page. 
+These links <i>duplicate</i> the customary links from your Assignment 4 homepage. Remember to include on that main Assignment 4 homepage a short description of each exercise, so I know what I am about to see before following up the links.
+</p>
+
+<table width="150">
+<tr><td><a href="#Top">Top</a></td><td><a href="../index.html">Home</a></td</tr>
+</table>
+
+<p><a name="Ex1"></a>
+<b><u>Exercise 1</u>:</b>
+Create a page for your courses. This page will contain one table that is your daily schedule, from Monday to Friday.  The ‘blueprint’ of this table should be the schedule that you received at the beginning of the semester.<br><br>
+Your table will have 6 columns: the first one will contain the hours and the next five columns will be for Monday to Friday. In the first column you’ll have a row for each &frac12; hour, starting at 8:15 and ending at 18:15. For each course/break you’ll merge together as many rows as necessary. For each course, put course title (short) and teacher’s name; for breaks, leave them empty. For the ‘Activity Period’ (Tue and Thu, 12:45 - 2:00) write exactly this. Fill in the background of each course with a <u>light shade</u> of yellow and each break with a <u>light shade</u> of green. Fill in the 'Activity Period' with a <u>light shade</u> of magenta.  Make background colours <u>really light</u>.  For the title row of this table, write in bold and put a silver background.<br>
+
+At the top of your table, create a merged row across the 6 columns and put in bold and centered "<i>Your name</i>'s schedule", without the quotation marks.
+
+<br><br>
+
+<i>Hint</i>: Use wisely style definitions and/or in-line style for cell background (see example presented in class). For the header (first row) colour, you may use &lt;th&gt; in the style definition.
+</p>
+
+<table width="150">
+<tr><td><a href="#Top">Top</a></td><td><a href="../index.html">Home</a></td</tr>
+</table>
+
+<p><a name="Ex2"></a>
+<b><u>Exercise 2</u>:</b>
+Find 8 images <abbr title="images recognizable in both tables,  with sizes to fit in the tables and with light colours">suitable</abbr><a href="#note1"><sup>1</sup></a> for background images in a web page. Make two 3 x 3 tables that display these images. Both tables must have the same width: <b>3nn</b> pixels, where <b><i>nn</i></b> stands for the <i>last</i> two digits of your student number. (E.g.: if your student number is 08956<b>78</b>, the width of your tables will be 3<b>78</b> pixels.) The middle cell of each table should contain the link(s) to the site(s) where you found the images. <br><br>
+
+Make your 2 tables display one next to the other, with a space of 10 to 30 pixels between them.<br><br>
+
+In the first table, put the images in the table cells as <u>regular images</u>:<br><br>
+<font face="courier"><b>&lt;td&gt;&lt;img src="img1.gif"&gt;&lt;/td&gt;</b><br><br></font>
+In the second table, put the images as <u>background images</u> of the table cells:<br><br>
+<font face="courier"><b>&lt;td background="img1.gif"&gt;&lt;/td&gt;</b></font>
+</p>
+
+<p>
+<b>Important note:</b> The pictures must be downloaded and submitted with your assignment. Do not use images that are physically on a remote site. You give the credit in the center of the table, but you use local copies.
+</p>
+
+<p><i>
+<a name="note1"></a>
+<hr color="red" width="25%" align="left" height="1">
+<sup>1</sup> This means that your images should be recognizable in both tables,  have decent sizes to fit nicely in the tables and have light colours, to allow potential items in the second table to be visible.
+</i></p>
+
+<table width="150">
+<tr><td><a href="#Top">Top</a></td><td><a href="../index.html">Home</a></td</tr>
+
+</table>
+
+<p><a name="Ex3"></a>
+<b><u>Exercise 3</u>: </b>
+<br><br>
+Make a web page with the same appearance as the one given at the end of this exercise. The required images are available in the .gif files in the "images" folder. The borderless table structure is given below. 
+<img src="image002.jpg" align="left" hspace="10" vspace="5" alt="Table structure for Music page">
+<br><i>Suggestion</i>: make this consist of three tables, in sequence. The first table should consist of just one row: one cell for the picture of the guitar, and one cell for each letter-image in the "Music Dept." title.
+The next table has two rows: the first row has three cells, the music-bar image and two narrow, blank cells surrounding it. Give them equal width to achieve the centering effect shown in the picture. The second row has one long blue cell. The third table contains the rest.
+
+Do NOT use the &lt;FONT&gt; tag to set the white color in the blue sidebar, and do not use the &lt;u&gt; tag repeatedly, to underline each list item. Use styles instead, as follows: <br>
+<font face="courier"><b>li {text-decoration: underline; font-size: 10pt; }</b></font> - place this in the HEAD section, to specify <u>underlined</u> for each music category on the list (and <i>make it a list!</i>). <br>
+In the cell containing the heading "Our categories"( and the detailed list), use the inline attribute <br>
+<font face="courier"><b>style= '{color: white; font-size: 14pt; valign="top"}'</b></font>. 
+<br>
+<font color="red">This will automatically impose the white color on all text in this table cell.</font><br>
+For a close approximation to the darkish blue color of the "MUSIC" tag, try using the hex-code "#0314E4"  for the table-cell background color - unless you can come up with a better approximation!
+
+<img src="music.jpg" align="right" hspace="5" vspace="5" alt="Exercise 3 - Music page" height="300" width="480" title="Exercise 3 - Music page">
+</br>
+</p>
+<p>
+<b>Hints:</b>
+</p>
+
+<ol>
+
+<li> Make each table exactly 600 pixels wide.</li>
+<br>
+<li> Set the widths of the letter-columns in pixels also. That way, you have precise control over the column widths. Just make sure that the column widths add up to the width of the whole table over any given horizontal line. Alternately, the width of the first table cell, the one with the image of the guitar, could be specified as a percentage.</li>
+<br>
+<li> Remember that some browsers don't like to render empty table cells. If a colored cell is to be empty, just put some text in the cell that is the same color as the background, or use the space character-entity <big> <b>&amp;nbsp;</b></big> as an invisible filler.</li>
+<br>
+<li> Use border="1" while you are designing the table layout. When finished, reset this value to zero. Visible table borders, in most situations, are tacky.</li>
+<br>
+<li> Don’t bother with the space between the items of the list.</li>
+
+</ol>
+
+<br>
+
+<table width="150">
+<tr><td><a href="#Top">Top</a></td><td><a href="../index.html">Home</a></td</tr>
+</table>
+<br>
+
+The graphic files needed for the Exercise 3 of this assignment are below: <br><br>
+</p>
+
+<table border="0">
+
+<tr> <td><b>File Name</b></td> <td> <b>Graphic Image</b></td> </tr>
+
+<tr> <td>C.GIF</td> <td><img src="images_a4/C.GIF"/></td> </tr>
+
+<tr> <td>E.GIF</td> <td><img src="images_a4/E.GIF"/></td> </tr>
+
+<tr> <td>I.GIF</td> <td><img src="images_a4/I.GIF"/></td> </tr>
+
+<tr> <td>P.GIF</td> <td><img src="images_a4/P.GIF"/></td> </tr>
+
+<tr> <td>S.GIF</td> <td><img src="images_a4/S.GIF"/></td> </tr>
+
+<tr> <td>T.GIF</td> <td><img src="images_a4/T.GIF"/></td> </tr>
+
+<tr> <td>U.GIF</td> <td><img src="images_a4/U.GIF"/></td> </tr>
+
+<tr> <td>capD.GIF</td> <td><img src="images_a4/capD.GIF"/></td> </tr>
+
+<tr> <td>capM.GIF</td> <td><img src="images_a4/capM.GIF"/></td> </tr>
+
+<tr> <td>PERIOD.GIF</td> <td><img src="images_a4/PERIOD.GIF"/></td> </tr>
+
+<tr> <td>GUITAR.GIF</td> <td><img src="images_a4/GUITAR.GIF"/></td> </tr>
+
+<tr> <td>MUSICBAR.GIF</td> <td><img src="images_a4/MUSICBAR.GIF"/></td> </tr>
+
+</table>
+<br>
+
+<table width="150">
+<tr><td><a href="#Top">Top</a></td><td><a href="../index.html">Home</a></td</tr>
+</table>
+
+<hr align="center" width="50%">
+
+<p>
+<b>Basic Rule:</b> Make the best to get your content to fit on the screen. In general, if you have more than one screen of information, it's OK if the user has to scroll down to see it, but the user should never have to scroll sideways. 
+</p><hr> 
+<p>
+
+
+<a name="Files"></a>
+<h3>Files needed for this assignment</h3>
+<p>
+For your convenience (as a quick reference), here are the files about styles (explained in class): <a href="StylesCSS.html" target="_blank">styles</a> and <a href="test-table-style.html" target="_blank">styles in a table</a>.<br><br>
+
+
+
+<br>
+
+<table width="150">
+<tr><td><a href="#Top">Top</a></td><td><a href="../index.html">Home</a></td</tr>
+</table>
+
+<br>
+<i>Last update: October 17, 2017</i>
+
+<br>
+<p><i>Acknowledgment: this assignment is based on Prof. G. Fleischer’s original.</i></p>
+</div>
+</body>
+
+</html>

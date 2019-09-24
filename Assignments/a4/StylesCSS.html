@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title> About styles </title>
+	<style type="text/css">
+
+		/* Experiments with different headings: h1, h2, h3 */
+		h1 {color:red; text-decoration:underline;}
+		h2 {font-size:48pt; color:aqua;}	/* Big h2 */
+		h3 {color:rgb(35%, 0%, 50%);}
+
+		hr {color:gold; width:25%}
+
+		/* Experiments with different paragraphs */
+
+		/* general rule for p */
+		p {color:red;}
+
+		/* only for p with a class equal to "azul" (blue) */
+		p.azul {color:blue}
+
+		/* only for p with a class equal to "verde" (green) */		
+		p.verde {color:green}
+
+	</style>
+</head>
+
+<body>
+
+<h1>Hello</h1>
+helloooo!
+<h1> This is another red header 1!</h1>
+
+<font color="green"><h1>This line is NOT green...</h1></font>
+
+And below, see (check the code) an inline style that makes &lt;h1&gt; green:
+
+<h1 style="color:green">Different color, i.e. green, and still underlined h1</h1>
+<h1>Test</h1>
+Here is a AQUA header h2 at ... 48 points!
+<h2> hello, h2 at 48pt</h2>
+
+...and a regular h2, still AQUA
+<h2 style="font-size:large; text-decoration:underline">h2 regular</h2>
+
+<h3> color dark purple </h3>
+
+<font color="red"><h3>
+Dark purple (in spite of font colour definition "red" -- check the code)
+</h3></font>
+
+<hr>
+
+
+<!-- Experiments with paragraphs -->
+<p>Here's a generic paragraph - red</p>
+
+<p class="azul">Here's a group-class paragraph. blue</p>
+
+<p class="verde">...and this is green! </p>
+
+ 
+
+</body>
+
+</html>
